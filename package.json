@@ -1,0 +1,32 @@
+{
+  "name": "products-feed",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "APP_ENV=local node ./app/server.js",
+    "prod": "APP_ENV=production node ./app/server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "cuid": "^2.1.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.2.1",
+    "morgan": "^1.9.1",
+    "newrelic": "^4.9.0",
+    "split": "^1.0.1",
+    "urlencode": "^1.1.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
